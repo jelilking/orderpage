@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OrderPage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <!-- ==================conatainer=================== -->
+      <div class="container">
+        <h1>
+          Place your orders here and start your journey to a renewed and
+          restored health
+        </h1>
+        <h2><b>Attention! Attention!! Attention!!!</b></h2>
+        <p>Please order ONLY IF</p>
+
+        <ul>
+          <li>
+            You are ready to receive the product within 1-3 days of order.
+          </li>
+          <li>
+            You understand what you just watched/read about Arjuna Lasunar.
+          </li>
+          <li>
+            You are ready to get rid of this silent killer(Arjuna Lasuna), and
+            not just browsing through.
+          </li>
+          <li>
+            You are financially ready. We incur costs on adverts and delivery
+            (which is free for you). We want as many Nigerians to benefit from
+            this breakthrough product.
+          </li>
+          <li>
+            You pick unknown numbers. Our representative will call to confirm
+            your order and schedule a delivery date. Please pick up and respond.
+          </li>
+        </ul>
+        <br />
+      </div>
+      <!-- ==================container end ============== -->
+      <!-- ==================  Gallery ============= -->
+      <div class="gallery">
+        <!-- ----- card 1 ---------- -->
+        <div class="content">
+          <h3>1 MONTH PLAN</h3>
+          <p>30 DAYS SUPPLY</p>
+          <img src="image/LA1 (1).png" alt="" />
+          <h6>&#8358;49,500 NGN</h6>
+          <p>
+            <bold>Regular Price: &#8358;<strike>110,000 NGN</strike></bold>
+          </p>
+          <p>+ Free Shipping <i class="fa-solid fa-truck"></i></p>
+          <ul>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+          </ul>
+
+          <div class="cash">
+            <p>Cash On delivery</p>
+          </div>
+          <a href="#order-form"><button class="buy-1">Order Now</button></a>
+        </div>
+
+        <!-- --------- card 2 ----------- -->
+        <div class="content diff">
+          <h3>6 MONTHS PLAN</h3>
+          <p>Highly reccommended</p>
+          <p>180 DAYS SUPPLY</p>
+          <img src="image/LA6 (1).png" alt="" />
+          <h6>&#8358;180,000 NGN</h6>
+          <p>
+            <bold>Regular Price: &#8358;<strike>276,850 NGN</strike></bold>
+          </p>
+          <p>+ Free Shipping <i class="fa-solid fa-truck"></i></p>
+          <ul>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+          </ul>
+
+          <div class="cash">
+            <p>Cash On delivery</p>
+          </div>
+          <a href="#order-form"><button class="buy-2">Order Now</button></a>
+        </div>
+
+        <!-- ------------ card 3 ------------ -->
+        <div class="content">
+          <h3>3 MONTHS PLAN</h3>
+          <p>90 DAYS SUPPY</p>
+          <img src="image/LA3 (1).png" alt="" />
+          <h6>&#8358;99,500 NGN</h6>
+          <p>
+            <bold>Regular Price: &#8358;<strike>155,880 NGN</strike></bold>
+          </p>
+          <p>+ Free Shipping <i class="fa-solid fa-truck"></i></p>
+          <ul>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+          </ul>
+
+          <div class="cash">
+            <p>Cash On delivery</p>
+          </div>
+          <a href="#order-form"><button class="buy-3">Order Now</button></a>
+        </div>
+        <br />
+      </div>
+      <!-- ==================  Gallery end ============= -->
+
+      <form
+        action="https://formspree.io/f/xnqeaqbj"
+        method="POST"
+        class="order__form"
+      >
+        <h1 style="text-align: center">Fill The Form To Place Your Order</h1>
+        <div class="form__name" id="order-form">
+          <input
+            type="text"
+            name="First name"
+            placeholder="First Name"
+            required
+          />
+          <input
+            type="text"
+            name="Last name"
+            placeholder="Last Name"
+            required
+          />
+        </div>
+        <input
+          type="number"
+          name="Phone Number"
+          placeholder="Your Phone Number"
+          required
+        />
+        <input
+          type="number"
+          name="Whatsapp Number"
+          placeholder="Your Whatsapp Number"
+          required
+        />
+        <input
+          type="email"
+          name="Email"
+          placeholder="Your Email Address"
+          required
+        />
+        <textarea
+          name="Address"
+          rows="2"
+          placeholder="Your Delivery Address"
+          required
+        ></textarea>
+        <input
+          type="search"
+          name="State"
+          placeholder="Your Delivery State"
+          required
+        />
+
+        <div class="package">
+          <p style="text-align: initial">Select Your Package:</p>
+          <input
+            type="radio"
+            class="none"
+            name="package"
+            value="1 pack - N49,500"
+          />
+          <label for="male">1 Pack - N49,500</label><br />
+          <input
+            type="radio"
+            class="none"
+            name="package"
+            value="3 Pack - N99,500"
+          />
+          <label for="female">3 pack (Discounted) - N99,500</label><br />
+          <input
+            type="radio"
+            class="none"
+            name="package"
+            value="6 Pack - N180,000"
+          />
+          <label for="female">6 pack - Full Treatment - N180,000</label>
+        </div>
+        <div class="Gender">
+          <p style="text-align: initial">Gender:</p>
+          <input type="radio" class="none" name="gender" value="Male" />
+          <label for="male">Male</label><br />
+          <input type="radio" class="none" name="gender" value="Female" />
+          <label for="female">Female</label>
+        </div>
+
+        <button type="submit" class="btn">Place Your Order Now</button>
+      </form>
+    </section>
+  </body>
+</html>
