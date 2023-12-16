@@ -227,6 +227,17 @@ button {
   .content {
     width: 45%;
   }
+  .order__form {
+    width: 80%;
+  }
+  .form__name {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .form__name input[type="text"] {
+    width: 100%;
+  }
   .container h1 {
     text-align: center;
   }
@@ -236,6 +247,17 @@ button {
 }
 @media (max-width: 750px) {
   .content {
+    width: 100%;
+  }
+  .order__form {
+    width: 85%;
+  }
+  .form__name {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .form__name input[type="text"] {
     width: 100%;
   }
   .container h1 {
@@ -248,6 +270,17 @@ button {
 @media (max-width: 640px) {
   .container {
     width: 95%;
+  }
+  .order__form {
+    width: 100%;
+  }
+  .form__name {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .form__name input[type="text"] {
+    width: 100%;
   }
   li {
     line-height: 35px;
