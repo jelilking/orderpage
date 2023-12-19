@@ -1,3 +1,4 @@
+<!-- RESPOSITORIES: https://github.com/jelilking/orderpage -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -172,9 +173,8 @@
 
         <!-- ==========state============== -->
 
-        <label for="State">Your Delivery State:</label>
-        <select name="State" id="" placeholder="Your Delivery State" required>
-          <option value="FCT">Abuja</option>
+        <select name="State" id="State" required>
+          <option value="">Select Your State:</option>
           <option value="Abia">Abia</option>
           <option value="Adamawa">Adamawa</option>
           <option value="Akwa ibom">Akwa ibom</option>
@@ -216,7 +216,17 @@
 
         <!-- ==========state END============== -->
 
-        <div class="package">
+        <select name="Package" id="Package" required>
+          <option value="">Select Your Package:</option>
+          <option value="3 pack - N99,500">
+            3 Pack (Discounted) - N99,500
+          </option>
+          <option value="6 pack - N180,000">
+            6 Pack Full Treatment - N180,000
+          </option>
+          <option value="1 pack - N49,500">1 Pack - N99,500</option>
+        </select>
+        <!-- <div class="package">
           <p style="text-align: initial">Select Your Package:</p>
           <input
             type="radio"
@@ -239,14 +249,20 @@
             value="6 Pack - N180,000"
           />
           <label for="female">6 pack - Full Treatment - N180,000</label>
-        </div>
-        <div class="Gender">
+        </div> -->
+        <!-- <div class="Gender">
           <p style="text-align: initial">Gender:</p>
           <input type="radio" class="none" name="Gender" value="Male" />
           <label for="male">Male</label><br />
           <input type="radio" class="none" name="Gender" value="Female" />
           <label for="female">Female</label>
-        </div>
+        </div> -->
+
+        <select name="Gender" id="Gender" required>
+          <option value="">Gender:</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
 
         <input
           type="hidden"
